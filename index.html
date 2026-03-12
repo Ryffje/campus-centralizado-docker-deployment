@@ -167,6 +167,15 @@
       .section-grid {
         grid-template-columns: 1fr;
       }
+
+      .architecture{
+max-width:750px;
+width:100%;
+display:block;
+margin:30px auto;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
     }
   </style>
 </head>
@@ -222,7 +231,7 @@
 
   <div class="card">
     <h2>Architecture</h2>
-    <img src="screenshots/architecture.png" alt="Architecture diagram" />
+    <img class="architecture" src="screenshots/architecture.png" alt="Architecture diagram" />
     <p style="margin-top: 16px;">
       Architecture overview of the containerized PHP application deployed on Render cloud infrastructure.
     </p>
