@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Centralizado — Docker Deployment</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0b0f17;
+      color: #e5e7eb;
+      margin: 0;
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .badge-top {
+      display: inline-block;
+      border: 1px solid #2a3342;
+      color: #cbd5e1;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 14px;
+      margin-bottom: 26px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    h1 {
+      font-size: 58px;
+      line-height: 1.05;
+      margin: 0 0 20px;
+      color: #f8fafc;
+      letter-spacing: -1.5px;
+    }
+
+    .hero-text {
+      font-size: 18px;
+      color: #cbd5e1;
+      line-height: 1.7;
+      max-width: 900px;
+      margin-bottom: 26px;
+    }
+
+    .hero-text strong {
+      color: #f8fafc;
+      font-weight: 700;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 20px;
+      border: 1px solid #394150;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.02);
+      color: #f8fafc;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: #4b5563;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #1f2937;
+      margin: 24px 0 22px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(17,24,39,0.98), rgba(10,15,25,0.98));
+      border: 1px solid #1f2937;
+      border-radius: 22px;
+      padding: 28px;
+      margin-top: 22px;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.015) inset;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: 20px;
+      color: #f8fafc;
+    }
+
+    p {
+      color: #cbd5e1;
+      line-height: 1.75;
+      margin: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+      color: #cbd5e1;
+      line-height: 1.9;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1f2937;
+      padding: 8px 14px;
+      border-radius: 999px;
+      margin: 6px 8px 0 0;
+      font-size: 14px;
+      color: #f8fafc;
+      border: 1px solid #2b3545;
+    }
+
+    .code {
+      background: #020617;
+      padding: 16px 18px;
+      border-radius: 14px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: #e2e8f0;
+      line-height: 1.9;
+      white-space: pre-line;
+      border: 1px solid #1e293b;
+    }
+
+    .section-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 22px;
+    }
+
+    .image-card {
+      background: linear-gradient(180deg, rgba(17,24,39,0.98), rgba(10,15,25,0.98));
+      border: 1px solid #1f2937;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .image-card img {
+      width: 100%;
+      display: block;
+      border-bottom: 1px solid #1f2937;
+    }
+
+    .caption {
+      padding: 14px 16px;
+      color: #cbd5e1;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 900px) {
+      body {
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      .section-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="badge-top">Portfolio · Docker Deployment</div>
+
+  <h1>Campus Centralizado — Docker Deployment</h1>
+
+  <p class="hero-text">
+    Technical showcase of a <strong>containerized deployment</strong> of a PHP academic management platform using
+    <strong>Docker</strong> and <strong>Render cloud hosting</strong>. This project demonstrates portable deployment,
+    container-based runtime configuration, and live production hosting in a Linux environment.
+  </p>
+
+  <div class="buttons">
+    <a class="btn" href="https://github.com/ryffje/campus-centralizado-docker-deployment">This page repository</a>
+    <a class="btn" href="https://github.com/ryffje/campus-centralizado">Main project repository</a>
+    <a class="btn" href="https://campus-centralizado.onrender.com">Live deployment</a>
+  </div>
+
+  <hr />
+
+  <div class="card">
+    <h2>What this project demonstrates</h2>
+    <ul>
+      <li>Docker containerization of a PHP web application</li>
+      <li>Portable Linux runtime environment</li>
+      <li>Cloud deployment using Render</li>
+      <li>Live production hosting of a containerized application</li>
+      <li>Technical collaboration focused on infrastructure and deployment</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Technologies</h2>
+    <span class="badge">Docker</span>
+    <span class="badge">Linux</span>
+    <span class="badge">PHP</span>
+    <span class="badge">Render</span>
+    <span class="badge">Containerization</span>
+    <span class="badge">Cloud Deployment</span>
+  </div>
+
+  <div class="card">
+    <h2>My Contribution</h2>
+    <p>
+      I implemented the <strong>Docker containerization layer</strong> and deployed the application on
+      <strong>Render</strong>, enabling a portable and reproducible runtime environment for the PHP platform.
+      My contribution focused on <strong>deployment, container runtime setup, and cloud execution</strong>.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Architecture</h2>
+    <img src="screenshots/architecture.png" alt="Architecture diagram" />
+    <p style="margin-top: 16px;">
+      Architecture overview of the containerized PHP application deployed on Render cloud infrastructure.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Run locally</h2>
+    <div class="code">docker build -t campus-centralizado .
+
+docker run -p 8080:80 campus-centralizado</div>
+  </div>
+
+  <div class="section-grid">
+    <div class="image-card">
+      <img src="screenshots/render-deployment.png" alt="Render deployment dashboard" />
+      <div class="caption">
+        Render dashboard showing active Docker-based deployment and successful production hosting.
+      </div>
+    </div>
+
+    <div class="image-card">
+      <img src="screenshots/application-running.png" alt="Application running in production" />
+      <div class="caption">
+        Live application running in production on Render cloud infrastructure.
+      </div>
+    </div>
+
+    <div class="image-card">
+      <img src="screenshots/repository-overview.png" alt="Repository overview" />
+      <div class="caption">
+        Repository structure used for the collaboration workflow and containerized deployment setup.
+      </div>
+    </div>
+
+    <div class="image-card">
+      <img src="screenshots/docker-config.png" alt="Docker configuration" />
+      <div class="caption">
+        Dockerfile configuration used to build the PHP runtime environment for the containerized deployment.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
